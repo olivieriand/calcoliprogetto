@@ -18,6 +18,10 @@ public class progetto
 	{
 		return CostoAttuale*AttivitaAttuali;
 	}
+	public int BCWS()
+	{
+		return AttPiani*CostoPiani;
+	}
 	
 
 }
