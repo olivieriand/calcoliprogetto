@@ -4,9 +4,7 @@ public class progetto
 {
 	private int BAC;
 	private int AttPiani;
-	private int AttAttuali;
 	private int CostoPiani;
-	private int CostoAtt;
 	public progetto(int bAC, int attPiani, int attAttuali, int costoPiani, int costoAtt) {
 		super();
 		BAC = bAC;
@@ -16,7 +14,10 @@ public class progetto
 		CostoAtt = costoAtt;
 	}
 	
-	
+	public int ACWP(int CostoAttuale,int AttivitaAttuali) 
+	{
+		return CostoAttuale*AttivitaAttuali;
+	}
 	
 
 }
