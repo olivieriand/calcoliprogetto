@@ -22,6 +22,11 @@ public class progetto
 	{
 		return AttPiani*CostoPiani;
 	}
+	public int BCWP(int AttivitaAttuali)
+	{
+		return AttivitaAttuali*CostoPiani;
+	}
+	
 	
 
 }
